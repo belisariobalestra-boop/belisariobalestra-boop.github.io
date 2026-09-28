@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lowe — Desarrollos inmobiliarios</title>
+<meta name="description" content="Lowe desarrolla y comercializa emprendimientos residenciales y comerciales en Buenos Aires, Neuquén y Uruguay, y acompaña a inversores en el análisis de factibilidad de cada proyecto.">
+<style>
+  :root{
+    --fondo:#fbfaf8; --texto:#1c1b19; --suave:#5f5c57;
+    --linea:#e4e0da; --acento:#8a6a3b; --panel:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --fondo:#141311; --texto:#f2efea; --suave:#a8a39b;
+      --linea:#2c2a27; --acento:#c9a86b; --panel:#1b1a17;
+    }
+  }
+  :root[data-theme="dark"]{
+    --fondo:#141311; --texto:#f2efea; --suave:#a8a39b;
+    --linea:#2c2a27; --acento:#c9a86b; --panel:#1b1a17;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--fondo); color:var(--texto);
+    font:400 17px/1.65 ui-serif, Georgia, "Times New Roman", serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .env{max-width:720px; margin:0 auto; padding:0 16px}
+  header{border-bottom:1px solid var(--linea); padding:56px 0 32px}
+  .marca{
+    font:600 34px/1 ui-serif, Georgia, serif; letter-spacing:.02em; margin:0;
+  }
+  .bajada{color:var(--suave); margin:12px 0 0; font-size:17px}
+  main{padding:40px 0 24px}
+  h2{
+    font:600 13px/1.4 ui-sans-serif, system-ui, sans-serif;
+    text-transform:uppercase; letter-spacing:.12em; color:var(--acento);
+    margin:40px 0 12px;
+  }
+  p{margin:0 0 16px}
+  ul{margin:0 0 16px; padding-left:22px}
+  li{margin-bottom:8px}
+  a{color:var(--texto); text-decoration:underline; text-decoration-color:var(--acento); text-underline-offset:3px}
+  a:hover{color:var(--acento)}
+  .caja{
+    background:var(--panel); border:1px solid var(--linea); border-radius:10px;
+    padding:20px 22px; margin:8px 0 16px;
+  }
+  footer{
+    border-top:1px solid var(--linea); margin-top:48px; padding:24px 0 56px;
+    color:var(--suave); font:400 14px/1.6 ui-sans-serif, system-ui, sans-serif;
+  }
+  footer a{color:var(--suave)}
+</style>
+</head>
+<body>
+<header>
+  <div class="env">
+    <h1 class="marca">Lowe</h1>
+    <p class="bajada">Desarrollos inmobiliarios en Buenos Aires, Neuquén y Uruguay.</p>
+  </div>
+</header>
+
+<main class="env">
+  <p>Lowe desarrolla y comercializa emprendimientos residenciales y comerciales, y acompaña a
+  inversores en el análisis de factibilidad de cada proyecto.</p>
+
+  <h2>Dónde trabajamos</h2>
+  <ul>
+    <li>Ciudad Autónoma de Buenos Aires</li>
+    <li>Neuquén — zona de Vaca Muerta</li>
+    <li>Uruguay — Montevideo, Maldonado y Ciudad de la Costa</li>
+  </ul>
+
+  <h2>Qué hacemos</h2>
+  <ul>
+    <li>Desarrollo de proyectos residenciales y comerciales, desde el terreno hasta la entrega.</li>
+    <li>Análisis de factibilidad: costos de obra, incidencia de tierra, margen y retorno.</li>
+    <li>Estructuración de operaciones, incluyendo canje de tierra.</li>
+    <li>Comercialización de las unidades.</li>
+  </ul>
+
+  <h2>Contacto</h2>
+  <div class="caja">
+    <p style="margin:0">Para presentar un terreno, evaluar una inversión o proponer una alianza
+    comercial, escribinos a
+    <a href="mailto:belisariobalestra@gmail.com">belisariobalestra@gmail.com</a>.</p>
+  </div>
+  <p style="color:var(--suave); font-size:15px">Precios, valores de metro cuadrado, condiciones de
+  compra y plazos de obra se conversan en cada caso: no publicamos cifras generales porque dependen
+  del proyecto.</p>
+</main>
+
+<footer class="env">
+  <p style="margin:0 0 6px">Lowe · Buenos Aires, Argentina</p>
+  <p style="margin:0"><a href="privacidad.html">Política de privacidad</a> ·
+  <a href="terminos.html">Términos del servicio</a></p>
+</footer>
+</body>
+</html>
